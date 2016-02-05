@@ -78,7 +78,6 @@
       line-height: 24px;
     }
     .text_footer{
-      color: blue;
       font-family: helvetica, arial, Sans-serif;
       font-size: 10px;
     }
@@ -215,7 +214,7 @@
                 </tr>
                 <tr>
                   <td>
-                    <a href="houseofswitzerland.org"><img src="cover.png" border="0" alt="" width="100%"></a>
+                    <a href="houseofswitzerland.org"><img editable class="image" src="cover.png" border="0" alt="" width="100%"></a>
                   </td>
                 </tr>
               </table>
@@ -292,7 +291,7 @@
                   <tr>
                     <td>
                       <div class="container_img">
-                        <img src="event-milano.jpg" alt="" editable="true" class="item_img" width="100%">
+                        <img editable class="image" src="event-milano.jpg" alt="" editable="true" class="item_img" width="100%">
                       </div>
                       <div class="title-event">
                         <singleline label="Titre">Expo Milano 2015</singleline>
@@ -330,7 +329,7 @@
                         <table cellpadding="8" cellspacing="0" border="0" height="auto">
                           <tr>
                             <td>
-                              <singleline label='Titre contact'><a href="#">Voir l'événement</a></singleline>
+                              <singleline label='Titre bouton'><a href="#">Voir l'événement</a></singleline>
                             </td>
                           </tr>
                         </table>
@@ -536,7 +535,7 @@
                   <table cellpadding="8" cellspacing="0" border="0" height="auto">
                     <tr>
                       <td>
-                        <singleline label='Titre contact'><a href="#">Read more headline</a></singleline>
+                        <singleline label='Titre bouton'><a href="#">Read more headline</a></singleline>
                       </td>
                     </tr>
                   </table>
@@ -703,7 +702,7 @@
                   <table cellpadding="8" cellspacing="0" border="0" height="auto">
                     <tr>
                       <td>
-                        <singleline label='Titre contact'><a href="#">Read more headline</a></singleline>
+                        <singleline label='Titre bouton'><a href="#">Read more headline</a></singleline>
                       </td>
                     </tr>
                   </table>
@@ -720,6 +719,116 @@
       </td>
     </tr>
   </table>
+  <!--layout galerie -->
+   <table  border="0" width="100%" cellpadding="0" cellspacing="0" align="center">
+    <tr>
+      <td align="center">
+        <table class="container" border="0" width="570" cellpadding="0" cellspacing="0" align="center">
+          <tr>
+            <td>
+              <layout label="galerie">
+                <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto">
+                  <tr>
+                    <td height="15">
+                      <img src="px.gif" width="100%" height="15" alt="">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <img editable class="image" src="stories-ink.jpg" width="100%" alt="">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <table border="0" cellspacing="0" cellpadding="0" align="left" width="50%" height="auto">
+                        <tr>
+                          <td>
+                            <img editable class="image" src="headline-milan.png" width="100%" alt="" border="0">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="3">
+                            <img src="px.gif" width="100%" height="3" alt="">
+                          </td>
+                        </tr>
+                      </table>
+                      <table border="0" cellspacing="0" cellpadding="0" width="50%" align="right" height="auto">
+                        <tr>
+                          <td align="right">
+                            <img editable class="image" src="headline-heidi.jpg" width="100%" alt="" border="0">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="3">
+                            <img src="px.gif" width="100%" height="3" alt="">
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="15">
+                      <img src="px.gif" width="100%" height="15" alt="">
+                    </td>
+                  </tr>
+                </table>
+              </layout>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <!--fin layout-->
+  <!--layout http://reallygoodemails.com/featured-product/limited-edition-glasses/-->
+   <table  border="0" width="100%" cellpadding="0" cellspacing="0" align="center">
+    <tr>
+      <td align="center">
+        <table class="container" border="0" width="570" cellpadding="0" cellspacing="0" align="center">
+          <tr>
+            <td>
+              <layout label="image-titre-texte">
+                <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto">
+                  <tr>
+                    <td rowspan="2" width="35%">
+                      <img editable class="image" src="layout.jpg" width="100%" alt="" border="0">
+                    </td>
+                    <td rowspan="2" width="5%">
+                      <img src="px.gif" width="100%" alt="">
+                    </td>
+                    <td width="60%">
+                      <div class="headline-title">
+                        <singleline label="Titre">Titre</singleline>
+                      </div>
+                      <div class="headline-author">
+                        <singleline label="Sous-titre">Sous-titre</singleline>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="60%">
+                      <div class="bloc_text">
+                        <multiline label="bloc_content">
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                          </p>
+                        </multiline>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="15">
+                      <img src="px.gif" width="100%" height="15" alt="">
+                    </td>
+                </table>
+              </layout>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <!--fin layout-->
   <!-- 100% wrapper (grey background) Happy Lilly -->
   <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" bgcolor="#F3F3F3">
     <tr>
