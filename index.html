@@ -231,118 +231,124 @@
           <tr>
             <td>
               <!--titre basic headline -->
-              <layout label="Titre de section">
-                <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto">
-                  <tr>
-                    <td height="15">
-                      <img src="px.gif" width="100%" height="15" alt="">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <table cellpadding="0" cellspacing="0" border="0" width="100%"  height="auto">
-                        <tr>
-                          <td width="15">
-                            <table cellpadding="0" cellspacing="0" border="0" width="100%">
-                              <tr>
-                                <td colspan="2">
-                                  <img src="px.gif" width="100%" height="15" alt="">
-                                </td>
-                              </tr>
-                              <tr>
-                                <td bgcolor="#DC0018">
-                                  <img src="px.gif" width="20" height="3" alt="">
-                                </td>
-                                <td>
-                                  <img src="px.gif" width="5" height="3" alt="">
-                                </td>
-                              </tr>
-                              <tr>
-                                <td colspan="2">
-                                  <img src="px.gif" width="100%" height="15" alt="">
-                                </td>
-                              </tr>
-                            </table>
-                          </td>
-                          <td>
-                            <div class="bloc-title">
-                              <singleline label="Titre">Notre prochain événement</singleline>
-                            </div>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td height="3">
-                      <img src="px.gif" width="100%" height="3" alt="">
-                    </td>
-                  </tr>
-                </table>
-              </layout>
-               <!--événement -->
-              <layout label='headline'>
-                <table border="0" width="100%" cellpadding="0" cellspacing="0">
-                  <tr>
-                    <td height="3">
-                      <img src="px.gif" border="0" alt="" height="3">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <div class="container_img">
-                        <img editable class="image" src="event-milano.jpg" alt="" editable="true" class="item_img" width="100%">
-                      </div>
-                      <div class="title-event">
-                        <singleline label="Titre">Expo Milano 2015</singleline>
-                      </div>
-                      <div class="date">
-                        <singleline label="Date">1 mai 2015</singleline>
-                      </div>
-                      <div class="bloc_text">
-                        <multiline label="bloc_content">
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                          </p>
-                        </multiline>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td colspan="3" height="3">
-                      <img src="px.gif" border="0" alt="" height="3">
-                    </td>
-                  </tr>
-                </table>
-              </layout>
-              <!--cta ok-->
-              <layout label="Call to action">
-                <table cellpadding="0" cellspacing="0" border="0" align="center" width="570" class="container" height="auto">
-                  <tr>
-                    <td height="20">
-                      <img src="px.gif" width="100%" height="20" alt="">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center">
-                      <div class="call-links">
-                        <table cellpadding="8" cellspacing="0" border="0" height="auto">
+              <repeater>
+                <layout label="Titre de section">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto">
+                    <tr>
+                      <td height="15">
+                        <img src="px.gif" width="100%" height="15" alt="">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%"  height="auto">
                           <tr>
+                            <td width="15">
+                              <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                <tr>
+                                  <td colspan="2">
+                                    <img src="px.gif" width="100%" height="15" alt="">
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td bgcolor="#DC0018">
+                                    <img src="px.gif" width="20" height="3" alt="">
+                                  </td>
+                                  <td>
+                                    <img src="px.gif" width="5" height="3" alt="">
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td colspan="2">
+                                    <img src="px.gif" width="100%" height="15" alt="">
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
                             <td>
-                              <singleline label='Titre bouton'><a href="#">Voir l'événement</a></singleline>
+                              <div class="bloc-title">
+                                <singleline label="Titre">Notre prochain événement</singleline>
+                              </div>
                             </td>
                           </tr>
                         </table>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td height="20">
-                      <img src="px.gif" width="100%" height="20" alt="">
-                    </td>
-                  </tr>
-                </table>
-              </layout>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height="3">
+                        <img src="px.gif" width="100%" height="3" alt="">
+                      </td>
+                    </tr>
+                  </table>
+                </layout>
+              </repeater>
+              <!--événement -->
+              <repeater>
+                <layout label='headline'>
+                  <table border="0" width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td height="3">
+                        <img src="px.gif" border="0" alt="" height="3">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="container_img">
+                          <img editable class="image" src="event-milano.jpg" alt="" editable="true" class="item_img" width="100%">
+                        </div>
+                        <div class="title-event">
+                          <singleline label="Titre">Expo Milano 2015</singleline>
+                        </div>
+                        <div class="date">
+                          <singleline label="Date">1 mai 2015</singleline>
+                        </div>
+                        <div class="bloc_text">
+                          <multiline label="bloc_content">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                          </multiline>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="3" height="3">
+                        <img src="px.gif" border="0" alt="" height="3">
+                      </td>
+                    </tr>
+                  </table>
+                </layout>
+              </repeater>
+              <!--cta ok-->
+              <repeater>
+                <layout label="Call to action">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" width="570" class="container" height="auto">
+                    <tr>
+                      <td height="20">
+                        <img src="px.gif" width="100%" height="20" alt="">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center">
+                        <div class="call-links">
+                          <table cellpadding="8" cellspacing="0" border="0" height="auto">
+                            <tr>
+                              <td>
+                                <singleline label='Titre bouton'><a href="#">Voir l'événement</a></singleline>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height="20">
+                        <img src="px.gif" width="100%" height="20" alt="">
+                      </td>
+                    </tr>
+                  </table>
+                </layout>
+              </repeater>
             </td>
           </tr>
         </table>
@@ -357,198 +363,208 @@
         <table class="container" border="0" width="570" cellpadding="0" cellspacing="0" align="center">
           <tr>
             <td align="left">
-              <layout label="Titre swiss stories">
-                <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto">
-                  <tr>
-                    <td height="30">
-                      <img src="px.gif" width="100%" height="30" alt="">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <img src="swissstories.png" height="40" alt="">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td height="15">
-                      <img src="px.gif" width="100%" height="3" alt="">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="baseline">
-                      <singleline label='baseline'>“We write stories about switzerland”</singleline>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td height="15">
-                      <img src="px.gif" width="100%" height="3" alt="">
-                    </td>
-                  </tr>
-                </table>
-              </layout>
+              <repeater>
+                <layout label="Titre swiss stories">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto">
+                    <tr>
+                      <td height="30">
+                        <img src="px.gif" width="100%" height="30" alt="">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img src="swissstories.png" height="40" alt="">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height="15">
+                        <img src="px.gif" width="100%" height="3" alt="">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="baseline">
+                        <singleline label='baseline'>“We write stories about switzerland”</singleline>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height="15">
+                        <img src="px.gif" width="100%" height="3" alt="">
+                      </td>
+                    </tr>
+                  </table>
+                </layout>
+              </repeater>
               <!-- stories-->
-              <layout label="story">
-                <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto" bgcolor="#FFFFFF">
-                  <tr>
-                    <td  colspan="3" height="20">
-                      <img src="px.gif" height="20" alt="">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="5%">
-                      <img src="px.gif" width="5%" alt="">
-                    </td>
-                    <td width="90%">
-                      <img class="image" src="stories-9sportifs.jpg" alt="" width="100%">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="5%">
-                      <img src="px.gif" width="5%" alt="">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="5%">
-                      <img src="px.gif" width="5%" alt="">
-                    </td>
-                    <td>
-                      <div>
-                        <multiline label='Text'>
-                          <p class="headline-title">9 sportifs entre ciel et terre</p>
-                        </multiline>
-                      </div>
-                    </td>
-                    <td width="5%">
-                      <img src="px.gif" width="5%" alt="">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="5%">
-                      <img src="px.gif" width="5%" alt="">
-                    </td>
-                    <td>
-                      <div class="bloc_text">
-                        <multiline label="bloc_content">
-                          <p>
-                            En Suisse, montagnes, vallons, lacs et rivières constituent un doux paysage. Certains s’y promènent, d’autres s’y baignent et il y a une troisième catégorie de personnes pas tout à fait comme les autres qui ne se contente pas de griller des cervelas.
-                          </p>
-                        </multiline>
-                      </div>
-                    </td>
-                    <td width="5%">
-                      <img src="px.gif" width="5%" alt="">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="5%">
-                      <img src="px.gif" width="5%" alt="">
-                    </td>
-                  </tr>
-                </table>
-              </layout>
+              <repeater>
+                <layout label="story">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto" bgcolor="#FFFFFF">
+                    <tr>
+                      <td  colspan="3" height="20">
+                        <img src="px.gif" height="20" alt="">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="5%">
+                        <img src="px.gif" width="5%" alt="">
+                      </td>
+                      <td width="90%">
+                        <img class="image" src="stories-9sportifs.jpg" alt="" width="100%">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="5%">
+                        <img src="px.gif" width="5%" alt="">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="5%">
+                        <img src="px.gif" width="5%" alt="">
+                      </td>
+                      <td>
+                        <div>
+                          <multiline label='Text'>
+                            <p class="headline-title">9 sportifs entre ciel et terre</p>
+                          </multiline>
+                        </div>
+                      </td>
+                      <td width="5%">
+                        <img src="px.gif" width="5%" alt="">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="5%">
+                        <img src="px.gif" width="5%" alt="">
+                      </td>
+                      <td>
+                        <div class="bloc_text">
+                          <multiline label="bloc_content">
+                            <p>
+                              En Suisse, montagnes, vallons, lacs et rivières constituent un doux paysage. Certains s’y promènent, d’autres s’y baignent et il y a une troisième catégorie de personnes pas tout à fait comme les autres qui ne se contente pas de griller des cervelas.
+                            </p>
+                          </multiline>
+                        </div>
+                      </td>
+                      <td width="5%">
+                        <img src="px.gif" width="5%" alt="">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="5%">
+                        <img src="px.gif" width="5%" alt="">
+                      </td>
+                    </tr>
+                  </table>
+                </layout>
+              </repeater>
               <!--separator-->
-              <layout label="element separator">
-                <div style="color : #FFFFFF; font-size: 1px;">
-                  <singleline label='espace'>hos</singleline>
-                </div>                              
-                <table cellpadding="0" cellspacing="0" border="0" align="center" height="20" width="100%" class="full-table" height="auto">
-                  <tr>
-                    <td height="20" align="center">
-                      <img src="px.gif" alt="" height="1">
-                    </td>
-                  </tr>
-                </table>
-              </layout>
-              <layout label="story">
-                <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto" bgcolor="#FFFFFF">
-                  <tr>
-                    <td  colspan="3" height="20">
-                      <img src="px.gif" height="20" alt="">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="5%">
-                      <img src="px.gif" width="5%" alt="">
-                    </td>
-                    <td width="90%">
-                      <img class="image" src="stories-ink.jpg" alt="" width="100%">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="5%">
-                      <img src="px.gif" width="5%" alt="">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="5%">
-                      <img src="px.gif" width="5%" alt="">
-                    </td>
-                    <td>
-                      <div>
-                        <multiline label='Text'>
-                          <p class="headline-title">INK REVOLUTION : Ces Suisses qui ont élevé le tatouage au rang d’art</p>
-                        </multiline>
-                      </div>
-                    </td>
-                    <td width="5%">
-                      <img src="px.gif" width="5%" alt="">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="5%">
-                      <img src="px.gif" width="5%" alt="">
-                    </td>
-                    <td>
-                      <div class="bloc_text">
-                        <multiline label="bloc_content">
-                          <p>
-                            S’il n’existe pas de courant suisse a proprement parlé, beaucoup de tatoueurs helvétiques ont influencés cette discipline et sont devenus des figures emblématiques. Ils ont ouvert la voie à la nouvelle génération et ont ainsi permis à ce petit pays de rayonner sur la scène internationale.
-                          </p>
-                        </multiline>
-                      </div>
-                    </td>
-                    <td width="5%">
-                      <img src="px.gif" width="5%" alt="">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="5%">
-                      <img src="px.gif" width="5%" alt="">
-                    </td>
-                  </tr>
-                </table>
-              </layout>
+              <repeater>
+                <layout label="element separator">
+                  <div style="color : #FFFFFF; font-size: 1px;">
+                    <singleline label='espace'>hos</singleline>
+                  </div>                              
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" height="20" width="100%" class="full-table" height="auto">
+                    <tr>
+                      <td height="20" align="center">
+                        <img src="px.gif" alt="" height="1">
+                      </td>
+                    </tr>
+                  </table>
+                </layout>
+              </repeater>
+              <repeater>
+                <layout label="story">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto" bgcolor="#FFFFFF">
+                    <tr>
+                      <td  colspan="3" height="20">
+                        <img src="px.gif" height="20" alt="">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="5%">
+                        <img src="px.gif" width="5%" alt="">
+                      </td>
+                      <td width="90%">
+                        <img class="image" src="stories-ink.jpg" alt="" width="100%">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="5%">
+                        <img src="px.gif" width="5%" alt="">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="5%">
+                        <img src="px.gif" width="5%" alt="">
+                      </td>
+                      <td>
+                        <div>
+                          <multiline label='Text'>
+                            <p class="headline-title">INK REVOLUTION : Ces Suisses qui ont élevé le tatouage au rang d’art</p>
+                          </multiline>
+                        </div>
+                      </td>
+                      <td width="5%">
+                        <img src="px.gif" width="5%" alt="">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="5%">
+                        <img src="px.gif" width="5%" alt="">
+                      </td>
+                      <td>
+                        <div class="bloc_text">
+                          <multiline label="bloc_content">
+                            <p>
+                              S’il n’existe pas de courant suisse a proprement parlé, beaucoup de tatoueurs helvétiques ont influencés cette discipline et sont devenus des figures emblématiques. Ils ont ouvert la voie à la nouvelle génération et ont ainsi permis à ce petit pays de rayonner sur la scène internationale.
+                            </p>
+                          </multiline>
+                        </div>
+                      </td>
+                      <td width="5%">
+                        <img src="px.gif" width="5%" alt="">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="5%">
+                        <img src="px.gif" width="5%" alt="">
+                      </td>
+                    </tr>
+                  </table>
+                </layout>
+              </repeater>
             </td>
           </tr>
         </table>
         <!--cta ok-->
-        <layout label="Call to action">
-          <table cellpadding="0" cellspacing="0" border="0" align="center" width="570" class="container" height="auto">
-            <tr>
-              <td height="20">
-                <img src="px.gif" width="100%" height="20" alt="">
-              </td>
-            </tr>
-            <tr>
-              <td align="center">
-                <div class="call-links-red">
-                  <table cellpadding="8" cellspacing="0" border="0" height="auto">
-                    <tr>
-                      <td>
-                        <singleline label='Titre bouton'><a href="#">Read more headline</a></singleline>
-                      </td>
-                    </tr>
-                  </table>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td height="20">
-                <img src="px.gif" width="100%" height="20" alt="">
-              </td>
-            </tr>
-          </table>
-        </layout>
+        <repeater>
+          <layout label="Call to action">
+            <table cellpadding="0" cellspacing="0" border="0" align="center" width="570" class="container" height="auto">
+              <tr>
+                <td height="20">
+                  <img src="px.gif" width="100%" height="20" alt="">
+                </td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <div class="call-links-red">
+                    <table cellpadding="8" cellspacing="0" border="0" height="auto">
+                      <tr>
+                        <td>
+                          <singleline label='Titre bouton'><a href="#">Read more headline</a></singleline>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td height="20">
+                  <img src="px.gif" width="100%" height="20" alt="">
+                </td>
+              </tr>
+            </table>
+          </layout>
+        </repeater>
       </td>
     </tr>
   </table>
@@ -560,162 +576,171 @@
           <tr>
             <td>
               <!--titre basic headline -->
-              <layout label="Titre de section">
-                <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto">
-                  <tr>
-                    <td height="15">
-                      <img src="px.gif" width="100%" height="15" alt="">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <table cellpadding="0" cellspacing="0" border="0" width="100%"  height="auto">
-                        <tr>
-                          <td width="15">
-                            <table cellpadding="0" cellspacing="0" border="0" width="100%">
-                              <tr>
-                                <td colspan="2">
-                                  <img src="px.gif" width="100%" height="15" alt="">
-                                </td>
-                              </tr>
-                              <tr>
-                                <td bgcolor="#DC0018">
-                                  <img src="px.gif" width="20" height="3" alt="">
-                                </td>
-                                <td>
-                                  <img src="px.gif" width="5" height="3" alt="">
-                                </td>
-                              </tr>
-                              <tr>
-                                <td colspan="2">
-                                  <img src="px.gif" width="100%" height="15" alt="">
-                                </td>
-                              </tr>
-                            </table>
-                          </td>
-                          <td>
-                            <div class="bloc-title">
-                              <singleline label="Titre">Headlines</singleline>
-                            </div>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-              </layout>
-              <layout label="headline">
-                <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto">
-                  <tr>
-                    <td colspan="3" height="10">
-                      <img src="px.gif" width="100%" height="10" alt="">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="30%">
-                      <img class="image" src="headline-huffington.jpeg" width="100%" alt="" border="0">
-                    </td>
-                    <td width="10%">
-                      <img src="px.gif" width="100%" height="3" alt="">
-                    </td>
-                    <td width="60%">
-                      <div>
-                        <multiline label='Text'>
-                          <p class="headline-title">4 Things The Swiss Can Teach Us About How To Live Longer</p>
-                        </multiline>
-                        <multiline label='Text'>
-                          <p class="headline-author">Huffington Post</p>
-                        </multiline>
-                      </div>
-                    </td>
-                  </tr>
-                </table>
-              </layout>
-              <layout label="headline">
-                <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto">
-                  <tr>
-                    <td colspan="3" height="10">
-                      <img src="px.gif" width="100%" height="10" alt="">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="30%">
-                      <img class="image" src="headline-heidi.jpg" width="100%" alt="" border="0">
-                    </td>
-                    <td width="10%">
-                      <img src="px.gif" width="100%" height="3" alt="">
-                    </td>
-                    <td width="60%">
-                      <div>
-                        <multiline label='Text'>
-                          <p class="headline-title">«Heidi» – Un classique du cinéma suisse part à la conquête du monde </p>
-                        </multiline>
-                        <multiline label='Text'>
-                          <p class="headline-author">Swiss Film</p>
-                        </multiline>
-                      </div>
-                    </td>
-                  </tr>
-                </table>
-              </layout>
-              <layout label="headline">
-                <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto">
-                  <tr>
-                    <td colspan="3" height="10">
-                      <img src="px.gif" width="100%" height="10" alt="">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="30%">
-                      <img class="image" src="headline-milan.png" width="100%" alt="" border="0">
-                    </td>
-                    <td width="10%">
-                      <img src="px.gif" width="100%" height="3" alt="">
-                    </td>
-                    <td width="60%">
-                      <div>
-                        <multiline label='Text'>
-                          <p class="headline-title">1 Pavillon, 4 tours, 184 jours, 2,1 millions de visiteurs : 1’000’000’000 d’émotions !</p>
-                        </multiline>
-                        <multiline label='Text'>
-                          <p class="headline-author">Expo Milano 2015</p>
-                        </multiline>
-                      </div>
-                    </td>
-                  </tr>
-                </table>
-              </layout>
+              <repeater>
+                <layout label="Titre de section">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto">
+                    <tr>
+                      <td height="15">
+                        <img src="px.gif" width="100%" height="15" alt="">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%"  height="auto">
+                          <tr>
+                            <td width="15">
+                              <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                <tr>
+                                  <td colspan="2">
+                                    <img src="px.gif" width="100%" height="15" alt="">
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td bgcolor="#DC0018">
+                                    <img src="px.gif" width="20" height="3" alt="">
+                                  </td>
+                                  <td>
+                                    <img src="px.gif" width="5" height="3" alt="">
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td colspan="2">
+                                    <img src="px.gif" width="100%" height="15" alt="">
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                            <td>
+                              <div class="bloc-title">
+                                <singleline label="Titre">Headlines</singleline>
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </layout>
+              </repeater>
+              <repeater>
+                <layout label="headline">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto">
+                    <tr>
+                      <td colspan="3" height="10">
+                        <img src="px.gif" width="100%" height="10" alt="">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="30%">
+                        <img class="image" src="headline-huffington.jpeg" width="100%" alt="" border="0">
+                      </td>
+                      <td width="10%">
+                        <img src="px.gif" width="100%" height="3" alt="">
+                      </td>
+                      <td width="60%">
+                        <div>
+                          <multiline label='Text'>
+                            <p class="headline-title">4 Things The Swiss Can Teach Us About How To Live Longer</p>
+                          </multiline>
+                          <multiline label='Text'>
+                            <p class="headline-author">Huffington Post</p>
+                          </multiline>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </layout>
+              </repeater>
+              <repeater>
+                <layout label="headline">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto">
+                    <tr>
+                      <td colspan="3" height="10">
+                        <img src="px.gif" width="100%" height="10" alt="">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="30%">
+                        <img class="image" src="headline-heidi.jpg" width="100%" alt="" border="0">
+                      </td>
+                      <td width="10%">
+                        <img src="px.gif" width="100%" height="3" alt="">
+                      </td>
+                      <td width="60%">
+                        <div>
+                          <multiline label='Text'>
+                            <p class="headline-title">«Heidi» – Un classique du cinéma suisse part à la conquête du monde </p>
+                          </multiline>
+                          <multiline label='Text'>
+                            <p class="headline-author">Swiss Film</p>
+                          </multiline>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </layout>
+              </repeater>
+                <layout label="headline">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto">
+                    <tr>
+                      <td colspan="3" height="10">
+                        <img src="px.gif" width="100%" height="10" alt="">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="30%">
+                        <img class="image" src="headline-milan.png" width="100%" alt="" border="0">
+                      </td>
+                      <td width="10%">
+                        <img src="px.gif" width="100%" height="3" alt="">
+                      </td>
+                      <td width="60%">
+                        <div>
+                          <multiline label='Text'>
+                            <p class="headline-title">1 Pavillon, 4 tours, 184 jours, 2,1 millions de visiteurs : 1’000’000’000 d’émotions !</p>
+                          </multiline>
+                          <multiline label='Text'>
+                            <p class="headline-author">Expo Milano 2015</p>
+                          </multiline>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </layout>
+              </td>
             </td>
           </tr>
         </table>
         <!--cta ok-->
-        <layout label="Call to action">
-          <table cellpadding="0" cellspacing="0" border="0" align="center" width="570" class="container" height="auto">
-            <tr>
-              <td height="20">
-                <img src="px.gif" width="100%" height="20" alt="">
-              </td>
-            </tr>
-            <tr>
-              <td align="center">
-                <div class="call-links">
-                  <table cellpadding="8" cellspacing="0" border="0" height="auto">
-                    <tr>
-                      <td>
-                        <singleline label='Titre bouton'><a href="#">Read more headline</a></singleline>
-                      </td>
-                    </tr>
-                  </table>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td height="20">
-                <img src="px.gif" width="100%" height="20" alt="">
-              </td>
-            </tr>
-          </table>
-        </layout>
+        <repeater>
+          <layout label="Call to action">
+            <table cellpadding="0" cellspacing="0" border="0" align="center" width="570" class="container" height="auto">
+              <tr>
+                <td height="20">
+                  <img src="px.gif" width="100%" height="20" alt="">
+                </td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <div class="call-links">
+                    <table cellpadding="8" cellspacing="0" border="0" height="auto">
+                      <tr>
+                        <td>
+                          <singleline label='Titre bouton'><a href="#">Read more headline</a></singleline>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td height="20">
+                  <img src="px.gif" width="100%" height="20" alt="">
+                </td>
+              </tr>
+            </table>
+          </layout>
+        </repeater>
       </td>
     </tr>
   </table>
@@ -726,53 +751,55 @@
         <table class="container" border="0" width="570" cellpadding="0" cellspacing="0" align="center">
           <tr>
             <td>
-              <layout label="galerie">
-                <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto">
-                  <tr>
-                    <td height="15">
-                      <img src="px.gif" width="100%" height="15" alt="">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td colspan="2">
-                      <img editable class="image" src="stories-ink.jpg" width="100%" alt="">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <table border="0" cellspacing="0" cellpadding="0" align="left" width="50%" height="auto">
-                        <tr>
-                          <td>
-                            <img editable class="image" src="headline-milan.png" width="100%" alt="" border="0">
-                          </td>
-                        </tr>
-                        <tr>
-                          <td height="3">
-                            <img src="px.gif" width="100%" height="3" alt="">
-                          </td>
-                        </tr>
-                      </table>
-                      <table border="0" cellspacing="0" cellpadding="0" width="50%" align="right" height="auto">
-                        <tr>
-                          <td align="right">
-                            <img editable class="image" src="headline-heidi.jpg" width="100%" alt="" border="0">
-                          </td>
-                        </tr>
-                        <tr>
-                          <td height="3">
-                            <img src="px.gif" width="100%" height="3" alt="">
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td height="15">
-                      <img src="px.gif" width="100%" height="15" alt="">
-                    </td>
-                  </tr>
-                </table>
-              </layout>
+              <repeater>
+                <layout label="galerie">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto">
+                    <tr>
+                      <td height="15">
+                        <img src="px.gif" width="100%" height="15" alt="">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2">
+                        <img editable class="image" src="stories-ink.jpg" width="100%" alt="">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table border="0" cellspacing="0" cellpadding="0" align="left" width="50%" height="auto">
+                          <tr>
+                            <td>
+                              <img editable class="image" src="headline-milan.png" width="100%" alt="" border="0">
+                            </td>
+                          </tr>
+                          <tr>
+                            <td height="3">
+                              <img src="px.gif" width="100%" height="3" alt="">
+                            </td>
+                          </tr>
+                        </table>
+                        <table border="0" cellspacing="0" cellpadding="0" width="50%" align="right" height="auto">
+                          <tr>
+                            <td align="right">
+                              <img editable class="image" src="headline-heidi.jpg" width="100%" alt="" border="0">
+                            </td>
+                          </tr>
+                          <tr>
+                            <td height="3">
+                              <img src="px.gif" width="100%" height="3" alt="">
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height="15">
+                        <img src="px.gif" width="100%" height="15" alt="">
+                      </td>
+                    </tr>
+                  </table>
+                </layout>
+              </repeater>
             </td>
           </tr>
         </table>
@@ -787,41 +814,44 @@
         <table class="container" border="0" width="570" cellpadding="0" cellspacing="0" align="center">
           <tr>
             <td>
-              <layout label="image-titre-texte">
-                <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto">
-                  <tr>
-                    <td rowspan="2" width="35%">
-                      <img editable class="image" src="layout.jpg" width="100%" alt="" border="0">
-                    </td>
-                    <td rowspan="2" width="5%">
-                      <img src="px.gif" width="100%" alt="">
-                    </td>
-                    <td width="60%">
-                      <div class="headline-title">
-                        <singleline label="Titre">Titre</singleline>
-                      </div>
-                      <div class="headline-author">
-                        <singleline label="Sous-titre">Sous-titre</singleline>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="60%">
-                      <div class="bloc_text">
-                        <multiline label="bloc_content">
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                          </p>
-                        </multiline>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td height="15">
-                      <img src="px.gif" width="100%" height="15" alt="">
-                    </td>
-                </table>
-              </layout>
+              <repeater>
+                <layout label="image-titre-texte">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto">
+                    <tr>
+                      <td rowspan="2" width="35%">
+                        <img editable class="image" src="layout.jpg" width="100%" alt="" border="0">
+                      </td>
+                      <td rowspan="2" width="5%">
+                        <img src="px.gif" width="100%" alt="">
+                      </td>
+                      <td width="60%">
+                        <div class="headline-title">
+                          <singleline label="Titre">Titre</singleline>
+                        </div>
+                        <div class="headline-author">
+                          <singleline label="Sous-titre">Sous-titre</singleline>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="60%">
+                        <div class="bloc_text">
+                          <multiline label="bloc_content">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                          </multiline>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height="15">
+                        <img src="px.gif" width="100%" height="15" alt="">
+                      </td>
+                    </tr>
+                  </table>
+                </layout>
+              </repeater>
             </td>
           </tr>
         </table>
@@ -837,85 +867,89 @@
           <tr>
             <td>
               <!--titre basic headline -->
-              <layout label="Titre de section">
-                <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto">
-                  <tr>
-                    <td height="15">
-                      <img src="px.gif" width="100%" height="15" alt="">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <table cellpadding="0" cellspacing="0" border="0" width="100%"  height="auto">
-                        <tr>
-                          <td width="15">
-                            <table cellpadding="0" cellspacing="0" border="0" width="100%">
-                              <tr>
-                                <td colspan="2">
-                                  <img src="px.gif" width="100%" height="15" alt="">
-                                </td>
-                              </tr>
-                              <tr>
-                                <td bgcolor="#DC0018">
-                                  <img src="px.gif" width="20" height="3" alt="">
-                                </td>
-                                <td>
-                                  <img src="px.gif" width="5" height="3" alt="">
-                                </td>
-                              </tr>
-                              <tr>
-                                <td colspan="2">
-                                  <img src="px.gif" width="100%" height="15" alt="">
-                                </td>
-                              </tr>
-                            </table>
-                          </td>
-                          <td>
-                            <div class="bloc-title">
-                              <singleline label="Titre">Happy lilly</singleline>
-                            </div>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="bloc-text">
-                      <div class="bloc_text">
-                        <multiline label="bloc_content">
-                          <p>Posts by fans. Contribue with <a href="">#HappyLilly</a>.</p>
-                        </multiline>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td height="20">
-                      <img src="px.gif" width="100%" height="20" alt="">
-                    </td>
-                  </tr>
-                </table>
-              </layout>
-              <layout>
-                <table cellpadding="0" cellspacing="0" border="0" width="100%">
-                  <tr>
-                    <td width="27%">
-                      <img src="hp1.jpg" border="0" alt="" width="100%">
-                    </td>
-                    <td width="4.5%">
-                      <img src="px.gif" border="0" alt="" width="100%">
-                    </td>
-                    <td width="27%">
-                      <img src="hp2.jpg" border="0" alt="" width="100%">
-                    </td>
-                    <td width="4.5%">
-                      <img src="px.gif" border="0" alt="" width="100%">
-                    </td>
-                    <td width="27%">
-                      <img src="hp3.jpg" border="0" alt="" width="100%">
-                    </td>
-                  </tr>
-                </table>
-              </layout>   
+              <repeater>
+                <layout label="Titre de section">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto">
+                    <tr>
+                      <td height="15">
+                        <img src="px.gif" width="100%" height="15" alt="">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%"  height="auto">
+                          <tr>
+                            <td width="15">
+                              <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                <tr>
+                                  <td colspan="2">
+                                    <img src="px.gif" width="100%" height="15" alt="">
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td bgcolor="#DC0018">
+                                    <img src="px.gif" width="20" height="3" alt="">
+                                  </td>
+                                  <td>
+                                    <img src="px.gif" width="5" height="3" alt="">
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td colspan="2">
+                                    <img src="px.gif" width="100%" height="15" alt="">
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                            <td>
+                              <div class="bloc-title">
+                                <singleline label="Titre">Happy lilly</singleline>
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="bloc-text">
+                        <div class="bloc_text">
+                          <multiline label="bloc_content">
+                            <p>Posts by fans. Contribue with <a href="">#HappyLilly</a>.</p>
+                          </multiline>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height="20">
+                        <img src="px.gif" width="100%" height="20" alt="">
+                      </td>
+                    </tr>
+                  </table>
+                </layout>
+              </repeater>
+              <repeater>
+                <layout>
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    <tr>
+                      <td width="27%">
+                        <img src="hp1.jpg" border="0" alt="" width="100%">
+                      </td>
+                      <td width="4.5%">
+                        <img src="px.gif" border="0" alt="" width="100%">
+                      </td>
+                      <td width="27%">
+                        <img src="hp2.jpg" border="0" alt="" width="100%">
+                      </td>
+                      <td width="4.5%">
+                        <img src="px.gif" border="0" alt="" width="100%">
+                      </td>
+                      <td width="27%">
+                        <img src="hp3.jpg" border="0" alt="" width="100%">
+                      </td>
+                    </tr>
+                  </table>
+                </layout>
+              </repeater> 
             </td>
           </tr>
           <tr>
