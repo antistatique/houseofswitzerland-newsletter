@@ -542,7 +542,7 @@
                     </tr>
                   </table>
             </layout>
-          </repeater>j
+          </repeater>
             </td>
           </tr>
         </table>
@@ -800,20 +800,20 @@
               <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto">
                 <tr>
                   <td width="27%">
+                    <style media="screen">
+                      .article-content span p:first-child, .article-content span p:last-child{
+                        display: none;
+                      }
+                      .article-content span p img{
+                        width: 100%!important;
+                        height: auto;
+                      }
+                    </style>
                     <datarepeater type="rss" src="http://widget.websta.me/rss/n/houseofswitzerland">
-<<<<<<< HEAD
-                      <table  width="30%" cellpadding="0" cellspacing="0" border="0" align="left">
-=======
-                      <table width="100%" cellpadding="0" cellspacing="0" border="0">
->>>>>>> e81365f44e9c736c6927cbfd348b78941dd448f7
+                      <table width="30%" cellpadding="0" cellspacing="0" border="0" align="left" style="margin-right:3%">
                         <tr>
                           <td>
-                            <div><rssimage width="100%" height="100%"></rssimage></div>
-                          </td>
-                        </tr>
-                        <tr style="display:none;">
-                          <td>
-                            <div class="article-content"><rssbody paragraphs="1"></rssbody></div>
+                            <div class="article-content"><rssbody paragraphs="3"></rssbody></div>
                           </td>
                         </tr>
                       </table>
