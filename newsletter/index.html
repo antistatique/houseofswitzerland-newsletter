@@ -882,25 +882,19 @@
                     <img src="px.gif" width="100%" height="20" alt="">
                   </td>
                 </tr>
-              </table>
+              </table>                
               <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto">
                 <tr>
-                  <td width="27%">
-                    <datarepeater type="rss" src="http://widget.websta.me/rss/n/houseofswitzerland">
-                      <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                        <tr>
-                          <td>                                        
-                            <div><rssimage width="100%" height="100%"></rssimage></div>                                   
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>  
-                            <div class="article-content"><rssbody paragraphs="3"></rssbody></div>
-                          </td>
-                        </tr>
-                      </table> 
-                    </datarepeater>
-                  </td>
+                  <repeater>
+                    <layout label="instagram">
+                      <td width="27%">
+                        <img editable class="item_img" src="hp1.jpg" width="200" alt="" border="0">
+                      </td>
+                      <td height="3%">
+                        <img src="px.gif" class="item_img" width="10" alt="">
+                      </td>
+                    </layout>
+                  </repeater>
                 </tr>
               </table>
             </td>
