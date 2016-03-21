@@ -100,6 +100,7 @@
       color :#D0021B;
       font-family: helvetica, arial, Sans-serif;
       font-size: 1.4em;
+      line-height: 1.3em;
     }
     .headline-title a {
       color: #D0021B;
@@ -179,7 +180,7 @@
                 <tr>
                   <td width="40%">
                     <p class="client">
-                    <span class="light_grey">Presentato dal</span> Dipartimento federale degli affari esteri
+                    <span class="light_grey">The</span> Federal Department of Foreign Affairs <span class="light_grey">presents</span>
                     </p>
                   </td>
                 </tr>
@@ -208,123 +209,79 @@
       </td>
     </tr>
   </table>
+
   <!-- 100% wrapper (red background) -->
-  <table border="0" width="100%" cellpadding="0" cellspacing="0" class="bg-swiss-stories">
+  <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#67010c">
     <tr>
-      <td width="20">
-        <img src="px.gif" width="20" height="20" alt="">
-      </td>
-      <td align="center">
-        <!--header -->
-        <table class="container" border="0" width="570" cellpadding="0" cellspacing="0" align="center">
-          <tr>
-            <td align="left">
-              <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto">
-                <tr>
-                  <td height="30">
-                    <img src="px.gif" width="30" height="30" alt="">
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <img class="item_img" src="swissstories.png" width="300" alt="" height="auto">
-                  </td>
-                </tr>
-                <tr>
-                  <td height="15">
-                    <img src="px.gif" width="15" height="15" alt="">
-                  </td>
-                </tr>
-                <tr>
-                  <td class="baseline">
-                    <singleline label="baseline">Sommario settimanale</singleline>
-                  </td>
-                </tr>
-                <tr>
-                  <td height="15">
-                    <img src="px.gif" width="15" height="15" alt="">
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-        </table>
-      </td>
-      <td width="20">
-        <img src="px.gif" width="20" height="20" alt="">
+      <td width="100%" align="center">
+        <img src="hos-newsletter-background.jpg" style="max-height:240px;" alt="">
       </td>
     </tr>
   </table>
+
   <table  border="0" width="100%" cellpadding="0" cellspacing="0" align="center">
+    <tr>
+      <td width="50">
+        <img src="px.gif" width="50" height="50" alt="">
+      </td>
+    </tr>
     <tr>
       <td align="center">
         <table class="container" border="0" width="570" cellpadding="0" cellspacing="0" align="center">
           <tr>
             <td>
-              <datarepeater type="rss" src="http://houseofswitzerland.org/it/feeds/story">
-                <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" height="auto" bgcolor="#FFFFFF">
-                  <tr>
-                    <td height="30">
-                      <img src="px.gif" height="30" width="30" alt="">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="100%">
-                      <rssitemlink><rssimage width="100%" /></rssitemlink>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td height="15">
-                      <img src="px.gif" width="10" alt="" height="15">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <div class="headline-title">
-                        <rssitemlink><rsstitle /></rssitemlink>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td height="20">
-                      <img src="px.gif" width="20" alt="" height="20">
-                    </td>
-                  </tr>
+              <div class="headline-title">
+                <singleline label="title">
+                  Thanks for subscribing to the House of Switzerland newsletter. Good choice!
+                </singleline>
+              </div>
+
+              <div class="bloc_text">
+                <multiline label="content">
+                  <p>
+                    From now on you will receive our newsletter once a month.
+                  </p>
+                  <p>
+                    If you would like to receive an email whenever a new Swiss story is published or information tailored to your interests, please enter your preferences.
+                  </p>
+                </multiline>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td align="center">
+              <div class="call-links-red">
+                <table cellpadding="8" cellspacing="0" border="0" height="auto">
                   <tr>
                     <td>
-                      <div class="bloc_text">
-                        <rssbody paragraphs="1" />
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td height="30">
-                      <img src="px.gif" height="30" width="30" alt="">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center">
-                      <div class="call-links-red">
-                        <table cellpadding="8" cellspacing="0" border="0" height="auto">
-                          <tr>
-                            <td>
-                              <rssitemlink>leggi tutto</rssitemlink>
-                            </td>
-                          </tr>
-                        </table>
-                      </div>
+                      <preferences lang="en" style="font-size: 16px;font-family: 'Helvetica Neue', Helvetica, Arial, Serif;line-height: 20px;background-color: #990F15;display: inline-block;text-decoration: none;color: #ffffff;font-weight: bold;padding: 0.8em;text-transform: uppercase;">Change your preferences</preferences>
                     </td>
                   </tr>
                 </table>
-              </datarepeater>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="bloc_text">
+                <multiline label="content_suite">
+                  <br/>
+                  <p>
+                    <small>
+                    <strong>Disclaimer</strong><br/>
+                    Don't worry, we'll keep all the information you send us to ourselves.
+                    </small>
+                  </p>
+                </multiline>
+              </div>
             </td>
           </tr>
         </table>
       </td>
     </tr>
     <tr>
-      <td width="20">
-        <img src="px.gif" width="20" height="20" alt="">
+      <td width="50">
+        <img src="px.gif" width="50" height="50" alt="">
       </td>
     </tr>
   </table>
@@ -425,11 +382,12 @@
             </td>
             <td width="50%">
               <p style="line-height:1.3;">
-                Dipartimento federale degli affari esteri DFAE<br/>
+                Federal Department of<br/>
+                Foreign Affairs FDFA<br/>
                 -<br/>
-                <span style="font-weight:bold;">La Segreteria generale SG-DFAE</span><br/>
+                <span style="font-weight:bold;">General Secretariat GS-FDFA</span><br/>
                 -<br/>
-                <a href="https://www.eda.admin.ch/eda/it/home/das_eda/organisation_deseda/generalsekretariat/praesenz_schweiz.html" style="color:#D0021B; text-decoration: none;">Presenza Svizzera</a>
+                <a href="https://www.eda.admin.ch/eda/en/home/das_eda/organisation_deseda/generalsekretariat/praesenz_schweiz.html" style="color:#D0021B; text-decoration: none;">Presence Switzerland</a>
               </p>
             </td>
           </tr>
@@ -457,10 +415,10 @@
             <td align="center">
               <div class="bloc_text bloc_footer">
                 <p>
-                  Riceve questa newsletter perché ama la Svizzera (e anche perché ci ha fornito il Suo indirizzo elettronico).<br> Se lo desidera, può <unsubscribe lang="it-IT" style="color:#D0021B; text-decoration: none;">disdire la newsletter</unsubscribe> o <preferences lang="it-IT" style="color:#D0021B; text-decoration: none;">modificare le Sue preferenze</preferences>. Resteremo comunque buoni amici.
-                  <br>
+                  You have received this newsletter because you love Switzerland...and because you've given us your email address.<br> You can <unsubscribe lang="en" style="color:#D0021B; text-decoration: none;">unsubscribe</unsubscribe> or <preferences lang="en" style="color:#D0021B; text-decoration: none;">change your preferences</preferences> if you want. Whatever you do, we'll still be friends. 
+                <br>                
                   <multiline label="unsubscribe_pref_message">
-                  <webversion style="color:#D0021B; text-decoration: none;">Vedere la versione web</webversion> 
+                  <webversion style="color:#D0021B; text-decoration: none;">See web version</webversion> 
                   </multiline>
                 </p>
               </div>
